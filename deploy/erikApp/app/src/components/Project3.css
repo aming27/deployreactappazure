@@ -1,0 +1,9 @@
+.bgProject3{
+    background-color: green;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

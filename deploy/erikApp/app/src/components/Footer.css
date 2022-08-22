@@ -1,0 +1,13 @@
+.bgFooter{
+    
+    background-color: black;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.copyright{
+    color: white;
+}

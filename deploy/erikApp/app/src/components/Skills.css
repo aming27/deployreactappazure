@@ -1,9 +1,42 @@
 .bgSkills{
-    background-color: grey;
-    height: 1200px;
+    background-image: url(../img/services-background.jpeg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    padding: 20px;
+}
+
+.skillsTitle{
+    color:white;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.skillsContainer{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding:20px;
+    margin: 10px 0;
+}
+
+.skillsContainer-img{
+    height: 50px;
+}
+
+.skillsContainer-title{
+    font-family: "Oswald";
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.skillsContainer-text{
+    color: white;
+    margin: 0 0 15px 0;
+    font-family: "Open Sans";
+    font-size: 12px;
 }

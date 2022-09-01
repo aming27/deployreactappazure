@@ -8,7 +8,10 @@ function About() {
         <div className="aboutContainer">
             <div className="aboutInfo">
                 <h1 className="aboutTitle">¿WHO AM I?</h1>
-                <p className="aboutText">Hello I'm Erik, I'm 18 years old and I consider myself constant and ambitious, I've always worked 100% on my projects and I've prepared myself as a Full Stack Developer in the best way I could, I started being self-taught at 15 years old.
+                <p className="aboutText">Hello I'm Erik, I'm 18 years old and I consider myself constant and ambitious.
+                <br/><br/>
+                I've always worked 100% on my projects and I've prepared myself as a Full Stack Developer in the best way I could, I started being self-taught at 15 years old.
+                <br/><br/>
                     I love team-working, I think that being able to explain and make others understand is the best way to lay down a concept.</p>
                 <div className="aboutButtons">
                     <a href={englishCV} className="aboutButton">DOWNLOAD ENGLISH CV</a>

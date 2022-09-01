@@ -1,9 +1,93 @@
-.bgPortfolio{
-    background-color: lightslategray;
-    height: 350px;
+.bgPortfolio {
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.portfolioSection {
+    padding: 20px;
+}
+
+.portfolioTitle {
+    font-family: "Oswald";
+    font-size: 24px;
+    color: white;
+}
+
+.portfolioText {
+    margin: 0;
+}
+
+.portfolioButton {
+    font-family: "Open Sans";
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 45px;
+    background-color: #ff4c4c;
+    color: #ddd;
+    padding: 0px 25px;
+    margin-top: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+}
+
+@media(min-width:700px) {
+
+    .bgPortfolio{
+        align-items: center;
+    }
+
+    .portfolioSection{
+        padding: 50px;
+    }
+    .portfolioProjects{
+        grid-column: 2/4;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .portfolioProject1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .portfolioProject2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .portfolioProject3{
+        grid-column:3/4;
+        grid-row: 1/2;
+    }
+    .portfolioProject4{
+        grid-column:1/2;
+        grid-row: 2/3;
+    }
+    .portfolioProject5{
+        grid-column:2/3;
+        grid-row: 2/3;
+    }
+    .portfolioProject6{
+        grid-column:3/4;
+        grid-row: 2/3;
+    }
+    .portfolioButton {
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+    }
+    .bgPortfolio {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+    }
+
+    .portfolioSection {
+        grid-column: 1/2;
+    }
 }

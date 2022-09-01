@@ -1,5 +1,5 @@
 import "./About.css"
-import aboutPhoto from "../img/fotoabout.jpeg"
+import aboutPhoto from "../img/fotoaboutERIK.png"
 import englishCV from "../files/ErikAsensioEnglishCV.pdf"
 import spanishCV from "../files/ErikAsensioSpanishCV.pdf"
 function About() {
